@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<h1>Feedback Form</h1>
+
+  <h1>Feedback Form</h1>
 
   <form method="post">
 
     <!-- Name Field -->
     <label for="name">Name:</label>
-    <input type="text" name="name" minlength="3" maxlength="50" required>
+    <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
     <br><br>
 
     <!-- Portfolio Field -->
     <label for="portfolio">Portfolio:</label>
-    <input type="url" name="portfolio" required>
+    <input type="url" id="portfolio" name="portfolio" required>
     <br><br>
 
     <!-- Favorite Color -->
     <label for="favColor">Favorite Color:</label>
-    <input type="color" name="favColor">
+    <input type="color" id="favColor" name="favColor">
     <br><br>
 
     <!-- Likeness -->
@@ -35,9 +35,8 @@
     <button type="submit">Submit</button>
 
   </form>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <script type="text/javascript" src="./script.js"></script>
 
 </body>
-
 </html>
